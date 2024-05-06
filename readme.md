@@ -12,7 +12,7 @@ conda activate ./venv
 
 ```commandline
 CMAKE_ARGS="-DLLAMA_METAL=on" pip install llama-cpp-python
-pip install --upgrade --quiet  langchain langchain-community langchain-chroma
+pip install --upgrade --quiet  langchain langchain-community langchain-chroma sentence-transformers
 ```
 
 ---
@@ -21,4 +21,4 @@ pip install --upgrade --quiet  langchain langchain-community langchain-chroma
 
 - https://llama-cpp-python.readthedocs.io/en/latest/
 - https://python.langchain.com/docs/use_cases/question_answering/quickstart/
-- 
+- https://python.langchain.com/docs/integrations/vectorstores/chroma/
